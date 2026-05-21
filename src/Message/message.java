@@ -141,11 +141,24 @@ public static void main(String[] args){
         
         //message text
         System.out.println("enter messages");
-}
-}
-}
-}
+        
+        if (result.equals("message successfully sent.")){
+        totalSent++;
+       
+
+
+        }else if (choice == 2){
+            System.out.println("coming soon");
+            
+        }else if (choice == 3){
+            System.out.println("goodbye!");
+        }else{
+            System.out.println("Invalid choice");
+        }
 
 
 
+
 }
+        
+System.out.println("total messages sent " + totalSent);
