@@ -83,5 +83,69 @@ public class Java {
         System.out.println("Message stored.");
         
     }
-        
+    
+    //return total messages sent
+    public int returnTotalMessages(){
+        return 1; 
     }
+        
+   
+
+
+
+
+
+
+
+
+public static void main(String[] args){
+    
+    // Login check
+    System.out.println("=== QuickChat login ===");
+    System.out.println("Username");
+    System.out.println("Password: ");
+    
+    System.out.println("Login successful!");
+}else {
+    System.out.println("Login failed.");
+    return;
+}
+
+        int choice = 0;
+        int totalSent = 0;
+        
+        //loop until user quits
+        while (choice= 3){
+        System.out.println("Welcome to QuickChat. ");
+        System.out.println("send messages");
+        System.out.println("show recently sent messages");
+        System.out.println("quit");
+        System.out.println("enter your choice: ");
+        
+        if (choice == 1){
+        //ask how many messages
+        System.out.println("how many messages do you want to enter? ");
+        
+        message[] messages = new Messages[num];
+        for (int i =0; i < num; i++){
+        messages[i] = new messages();
+        messages[i] =.MessageNum = i;
+        
+        //generate 10 digit ID
+        for (int j = 0; j<10; j++){
+        
+        System.out.println("message");
+        
+        //recipient
+        System.out.println("enter recipient number");
+        
+        //message text
+        System.out.println("enter messages");
+}
+}
+}
+}
+
+
+
+}
